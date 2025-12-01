@@ -98,3 +98,22 @@ footer {
   from {opacity: 0; transform: translateY(-20px);}
   to {opacity: 1; transform: translateY(0);}
 }
+/* Ajustes generales para móviles */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  section {
+    padding: 15px;
+    text-align: center;
+  }
+  h1, h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+}
+
